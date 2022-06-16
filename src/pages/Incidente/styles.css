@@ -1,0 +1,38 @@
+section.incidente {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: lightgrey;
+}
+
+.header-incidente {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  color: #FFF;
+  z-index: 2;
+}
+
+.mais-incidentes {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+
+  background: #82D475;
+  border-radius: 50%;
+  width: 54px;
+  height: 54px;
+  border: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
