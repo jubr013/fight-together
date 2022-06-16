@@ -11,7 +11,7 @@ const Login = () => {
           Realize o seu login através de sua conta Google
           e comece a transformar o mundo em um lugar melhor!
         </p>
-        <button className="button-success" variant="contained">Prosseguir</button>
+        <button a=""className="button-success" variant="contained">Prosseguir</button>
       </div>
     </>
   );

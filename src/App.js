@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Login from './pages/Login';
 import Incidente from './pages/Incidente';
+import Profile from './pages/Profile';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Routes>
       <Route path="/" element={<Login />} /> 
       <Route path='/incident' element={<Incidente />} />
+      <Route path='/profile' element={<Profile />} />
        
         
       </Routes>
