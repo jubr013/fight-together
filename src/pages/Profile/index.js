@@ -1,4 +1,5 @@
 import './style.css';
+import { Link } from 'react-router-dom'
 
 const Profile = () => {
   return (
@@ -7,8 +8,7 @@ const Profile = () => {
         <div class="column1">
           <div className="perfil_name">
             <img src="images/profilepic.svg" alt="" />
-            <h3>Olá, </h3>
-            <h3> Malenia</h3>
+            <h3>Olá, Malenia</h3>
             <img src="images/verified.svg" alt="" />            
           </div>
           <div className="dados">
@@ -45,14 +45,10 @@ const Profile = () => {
               <h5>Incidentes Denunciados</h5>
               <p style={{ color: '#D47592CC' }}>3</p>
             </div>
-            <button a="" className="button-leave" variant="contained">
+            <Link to="/" className="button-leave" variant="contained">
               Sair
-            </button>
+            </Link>
           </div>
-        </div>
-
-        <div class="column2">
-          <h2>Column 2</h2>
         </div>
       </div>
 
