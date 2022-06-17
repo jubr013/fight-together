@@ -1,4 +1,4 @@
-import { Button } from "@mui/material";
+import { Link } from 'react-router-dom'
 import './style.css'
 
 const Login = () => {
@@ -11,7 +11,7 @@ const Login = () => {
           Realize o seu login através de sua conta Google
           e comece a transformar o mundo em um lugar melhor!
         </p>
-        <button className="button-success" variant="contained">Prosseguir</button>
+        <Link to="incidents" className="button-success" variant="contained">Prosseguir</Link>
       </div>
     </>
   );
