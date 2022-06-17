@@ -58,7 +58,7 @@ const Incidente = () => {
             </div>
 
             <div className="modal">
-              <h1>Testes</h1> 
+              
             </div>
           </section>
         )
